@@ -123,7 +123,7 @@ It seems there will be more rabbits soon!"""
 animals = [camel, lion, deer, goose, bat, rabbit]
 
 while True:
-   user_input = input()
+   user_input = input('Which habitat # do you need?' )
    if user_input == 'exit':
       print('See you!')
       break
